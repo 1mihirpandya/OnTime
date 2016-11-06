@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <CouchbaseLite/CouchbaseLite.h>
+#import "CouchbaseLite/Couchbaselite.h"
+#import "Couchbaselite/CBLDocument.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +20,75 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController=[[UIViewController alloc] init];
+    
+    if (![self createTheManager]) return NO;
+    
     return YES;
 }
+
+/*
+- (BOOL)createTheDatabase
+{
+    
+    NSError *error;
+    
+    // create a name for the database and make sure the name is legal
+    NSString *dbname = @"OnTime_Reminders";
+    if (![CBLManager isValidDatabaseName: dbname]) {
+        NSLog (@"Bad database name");
+        return NO;
+    }
+    
+    // create a new database
+    _database = [_manager databaseNamed: dbname error: &error];
+    if (!_database) {
+        NSLog (@"Cannot create database. Error message: %@",
+               error.localizedDescription);
+        return NO;
+    }
+    
+    // log the database location
+    NSString *databaseLocation =
+    [[[[NSBundle mainBundle] bundlePath] stringByDeletingLastPathComponent]
+     stringByAppendingString: @"/Library/Application Support/CouchbaseLite"];
+    NSLog(@"Database %@ created at %@", dbname,
+          [NSString stringWithFormat:@"%@/%@%@", databaseLocation, dbname, @".cblite"]);
+    
+    return YES;
+}
+*/
+
+- (BOOL)createTheManager
+{
+    NSError *error;
+ 
+    // create a name for the database and make sure the name is legal
+    NSString *dbname = @"com.OnTime.Reminders";
+    if (![CBLManager isValidDatabaseName: dbname]) {
+        NSLog (@"Bad database name");
+        return NO;
+    }
+ 
+    // create a new database
+    _database = [_manager databaseNamed: dbname error: &error];
+    if (!_database) {
+        NSLog (@"Cannot create database. Error message: %@",
+               error.localizedDescription);
+        return NO;
+    }
+ 
+    // log the database location
+    NSString *databaseLocation =
+    [[[[NSBundle mainBundle] bundlePath] stringByDeletingLastPathComponent]
+     stringByAppendingString: @"/Library/Application Support/CouchbaseLite"];
+    NSLog(@"Database %@ created at %@", dbname,
+          [NSString stringWithFormat:@"%@/%@%@", databaseLocation, dbname, @".cblite"]);
+    
+    return YES;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <CouchbaseLite/CouchbaseLite.h>
+#import "CouchbaseLite/Couchbaselite.h"
+#import "Couchbaselite/CBLDocument.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -17,9 +20,13 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property (strong, nonatomic) CBLManager *manager;
+@property (strong, nonatomic) CBLDatabase *database;
+@property (strong, nonatomic) NSString *docID;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
+- (BOOL)createTheManager;
 
 @end
 

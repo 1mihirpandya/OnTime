@@ -10,11 +10,23 @@
 		AF8FAF0F1A743B8A00EE0934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF0E1A743B8A00EE0934 /* main.m */; };
 		AF8FAF121A743B8A00EE0934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF111A743B8A00EE0934 /* AppDelegate.m */; };
 		AF8FAF151A743B8A00EE0934 /* OnTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF131A743B8A00EE0934 /* OnTime.xcdatamodeld */; };
-		AF8FAF181A743B8A00EE0934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF171A743B8A00EE0934 /* ViewController.m */; };
 		AF8FAF1B1A743B8A00EE0934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8FAF191A743B8A00EE0934 /* Main.storyboard */; };
 		AF8FAF1D1A743B8A00EE0934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8FAF1C1A743B8A00EE0934 /* Images.xcassets */; };
 		AF8FAF201A743B8A00EE0934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8FAF1E1A743B8A00EE0934 /* LaunchScreen.xib */; };
 		AF8FAF2C1A743B8A00EE0934 /* OnTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF2B1A743B8A00EE0934 /* OnTimeTests.m */; };
+		AF8FAF371A743C2900EE0934 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8FAF351A743C2900EE0934 /* CouchbaseLite.framework */; };
+		AF8FAF3A1A743C5B00EE0934 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8FAF391A743C5B00EE0934 /* CoreData.framework */; };
+		AF8FAF3C1A743C6000EE0934 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8FAF3B1A743C6000EE0934 /* CoreLocation.framework */; };
+		AF8FAF3E1A743C6A00EE0934 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8FAF3D1A743C6A00EE0934 /* MapKit.framework */; };
+		AF8FAF411A743F5900EE0934 /* SignIn_View.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF401A743F5900EE0934 /* SignIn_View.m */; };
+		AF8FAF441A743F6B00EE0934 /* MainReminder_View.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF431A743F6B00EE0934 /* MainReminder_View.m */; };
+		AF8FAF471A743F7E00EE0934 /* AddItems_View.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF461A743F7E00EE0934 /* AddItems_View.m */; };
+		AF8FAF4A1A743FA100EE0934 /* AddLocation_View.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8FAF491A743FA100EE0934 /* AddLocation_View.m */; };
+		AFC8E3301A7445A8007464E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8E32F1A7445A8007464E3 /* CFNetwork.framework */; };
+		AFC8E3321A7445AF007464E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8E3311A7445AF007464E3 /* Security.framework */; };
+		AFC8E3341A744616007464E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8E3331A744616007464E3 /* SystemConfiguration.framework */; };
+		AFC8E3361A744626007464E3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8E3351A744626007464E3 /* libsqlite3.dylib */; };
+		AFC8E3381A74462F007464E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8E3371A74462F007464E3 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +46,29 @@
 		AF8FAF101A743B8A00EE0934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF8FAF111A743B8A00EE0934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF8FAF141A743B8A00EE0934 /* OnTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnTime.xcdatamodel; sourceTree = "<group>"; };
-		AF8FAF161A743B8A00EE0934 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF8FAF171A743B8A00EE0934 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF8FAF1A1A743B8A00EE0934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF8FAF1C1A743B8A00EE0934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF8FAF1F1A743B8A00EE0934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF8FAF251A743B8A00EE0934 /* OnTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8FAF2A1A743B8A00EE0934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8FAF2B1A743B8A00EE0934 /* OnTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTimeTests.m; sourceTree = "<group>"; };
+		AF8FAF351A743C2900EE0934 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		AF8FAF391A743C5B00EE0934 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF8FAF3B1A743C6000EE0934 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AF8FAF3D1A743C6A00EE0934 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF8FAF3F1A743F5900EE0934 /* SignIn_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignIn_View.h; path = ../SignIn_View.h; sourceTree = "<group>"; };
+		AF8FAF401A743F5900EE0934 /* SignIn_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignIn_View.m; path = ../SignIn_View.m; sourceTree = "<group>"; };
+		AF8FAF421A743F6B00EE0934 /* MainReminder_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainReminder_View.h; path = ../MainReminder_View.h; sourceTree = "<group>"; };
+		AF8FAF431A743F6B00EE0934 /* MainReminder_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainReminder_View.m; path = ../MainReminder_View.m; sourceTree = "<group>"; };
+		AF8FAF451A743F7E00EE0934 /* AddItems_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItems_View.h; sourceTree = "<group>"; };
+		AF8FAF461A743F7E00EE0934 /* AddItems_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItems_View.m; sourceTree = "<group>"; };
+		AF8FAF481A743FA100EE0934 /* AddLocation_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLocation_View.h; sourceTree = "<group>"; };
+		AF8FAF491A743FA100EE0934 /* AddLocation_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLocation_View.m; sourceTree = "<group>"; };
+		AFC8E32F1A7445A8007464E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AFC8E3311A7445AF007464E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AFC8E3331A744616007464E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AFC8E3351A744626007464E3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AFC8E3371A74462F007464E3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC8E3381A74462F007464E3 /* libz.dylib in Frameworks */,
+				AFC8E3361A744626007464E3 /* libsqlite3.dylib in Frameworks */,
+				AFC8E3341A744616007464E3 /* SystemConfiguration.framework in Frameworks */,
+				AFC8E3321A7445AF007464E3 /* Security.framework in Frameworks */,
+				AFC8E3301A7445A8007464E3 /* CFNetwork.framework in Frameworks */,
+				AF8FAF3E1A743C6A00EE0934 /* MapKit.framework in Frameworks */,
+				AF8FAF3C1A743C6000EE0934 /* CoreLocation.framework in Frameworks */,
+				AF8FAF3A1A743C5B00EE0934 /* CoreData.framework in Frameworks */,
+				AF8FAF371A743C2900EE0934 /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +101,15 @@
 		AF8FAF001A743B8A00EE0934 = {
 			isa = PBXGroup;
 			children = (
+				AFC8E3371A74462F007464E3 /* libz.dylib */,
+				AFC8E3351A744626007464E3 /* libsqlite3.dylib */,
+				AFC8E3331A744616007464E3 /* SystemConfiguration.framework */,
+				AFC8E3311A7445AF007464E3 /* Security.framework */,
+				AFC8E32F1A7445A8007464E3 /* CFNetwork.framework */,
+				AF8FAF3D1A743C6A00EE0934 /* MapKit.framework */,
+				AF8FAF3B1A743C6000EE0934 /* CoreLocation.framework */,
+				AF8FAF391A743C5B00EE0934 /* CoreData.framework */,
+				AF8FAF351A743C2900EE0934 /* CouchbaseLite.framework */,
 				AF8FAF0B1A743B8A00EE0934 /* OnTime */,
 				AF8FAF281A743B8A00EE0934 /* OnTimeTests */,
 				AF8FAF0A1A743B8A00EE0934 /* Products */,
@@ -85,8 +130,14 @@
 			children = (
 				AF8FAF101A743B8A00EE0934 /* AppDelegate.h */,
 				AF8FAF111A743B8A00EE0934 /* AppDelegate.m */,
-				AF8FAF161A743B8A00EE0934 /* ViewController.h */,
-				AF8FAF171A743B8A00EE0934 /* ViewController.m */,
+				AF8FAF3F1A743F5900EE0934 /* SignIn_View.h */,
+				AF8FAF401A743F5900EE0934 /* SignIn_View.m */,
+				AF8FAF421A743F6B00EE0934 /* MainReminder_View.h */,
+				AF8FAF431A743F6B00EE0934 /* MainReminder_View.m */,
+				AF8FAF451A743F7E00EE0934 /* AddItems_View.h */,
+				AF8FAF461A743F7E00EE0934 /* AddItems_View.m */,
+				AF8FAF481A743FA100EE0934 /* AddLocation_View.h */,
+				AF8FAF491A743FA100EE0934 /* AddLocation_View.m */,
 				AF8FAF191A743B8A00EE0934 /* Main.storyboard */,
 				AF8FAF1C1A743B8A00EE0934 /* Images.xcassets */,
 				AF8FAF1E1A743B8A00EE0934 /* LaunchScreen.xib */,
@@ -224,8 +275,11 @@
 			files = (
 				AF8FAF121A743B8A00EE0934 /* AppDelegate.m in Sources */,
 				AF8FAF151A743B8A00EE0934 /* OnTime.xcdatamodeld in Sources */,
-				AF8FAF181A743B8A00EE0934 /* ViewController.m in Sources */,
+				AF8FAF411A743F5900EE0934 /* SignIn_View.m in Sources */,
+				AF8FAF4A1A743FA100EE0934 /* AddLocation_View.m in Sources */,
 				AF8FAF0F1A743B8A00EE0934 /* main.m in Sources */,
+				AF8FAF441A743F6B00EE0934 /* MainReminder_View.m in Sources */,
+				AF8FAF471A743F7E00EE0934 /* AddItems_View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +403,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +480,7 @@
 				AF8FAF311A743B8A00EE0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF8FAF321A743B8A00EE0934 /* Build configuration list for PBXNativeTarget "OnTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +489,7 @@
 				AF8FAF341A743B8A00EE0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
